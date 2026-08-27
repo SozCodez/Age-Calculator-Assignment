@@ -6,6 +6,8 @@ name = input("Enter name..")
 print("Nice to meet you " + name + ".")
 print("What year where you born? ")
 
+#next we start making the variable for maths
+
 thisYear = 2026
 birthYear = input("Enter year you were born..")
 age = thisYear - int(birthYear)
@@ -20,6 +22,8 @@ print("What's your favorite hobby?")
 
 favHobby = input("Enter favorite hobby..")
 
+#active listening like responses
+
 print("I've always wanted to learn " + favHobby + ", it seems so interesting.")
 print("What city are you from?")
 
@@ -29,6 +33,8 @@ print("Wow I've never been to " + hCity + " before. ")
 print("Ok almost done")
 print("What's your favorite person's name? ")
 
+#useless variable, only to complete requirements
+
 favPerson = input("Enter their name..")
 
 print("How old are they?")
@@ -37,7 +43,7 @@ favPersonAge = input("Enter their age..")
 
 print("Well you should have " + favPerson + " age " + str(favPersonAge) + " fill this out.")
 
-
+#main math portion using all of our variables
 monthsAlive = age * 12
 leapDaysAlive = age / 4
 daysAlive = age * 365 + leapDaysAlive
@@ -48,9 +54,12 @@ secAlive = minAlive * 60
 
 
 print("Enough questions now, here's your personalized profile! ")
-print("Press Enter For Results..")
 
+#added input for delay between final question and final result
+
+print("Press Enter For Results..")
 ready = input()
 
+#final result/profile
 print("Name: " + name + "\n From: " + hCity + "\n Age (years): " + str(age) + "\n" + "Favorite Things: " + favFood + ", " + favHobby + "\n Full Age " + "\n Months: " + str(monthsAlive) + "\n Days (inc. leap): " + str(daysAlive) + "\n Hours: " + str(hoursAlive) + "\n Min: " + str(minAlive) + "\n Sec: " + str(secAlive))
 
