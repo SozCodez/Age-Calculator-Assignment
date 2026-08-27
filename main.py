@@ -35,7 +35,8 @@ print("How old are they?")
 
 favPersonAge = input("Enter their age..")
 
-print("Well you should have " + favPerson + " age " + int(favPersonAge) + " fill this out.")
+print("Well you should have " + favPerson + " age " + str(favPersonAge) + " fill this out.")
+
 
 monthsAlive = age * 12
 leapDaysAlive = age / 4
@@ -46,4 +47,10 @@ secAlive = minAlive * 60
 # on part 10 of assignment
 
 
-print("Enough questions now, ")
+print("Enough questions now, here's your personalized profile! ")
+print("Press Enter For Results..")
+
+ready = input()
+
+print("Name: " + name + "\n From: " + hCity + "\n Age (years): " + str(age) + "\n" + "Favorite Things: " + favFood + ", " + favHobby + "\n Full Age " + "\n Months: " + str(monthsAlive) + "\n Days (inc. leap): " + str(daysAlive) + "\n Hours: " + str(hoursAlive) + "\n Min: " + str(minAlive) + "\n Sec: " + str(secAlive))
+
