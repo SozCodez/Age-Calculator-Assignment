@@ -63,3 +63,7 @@ ready = input()
 #final result/profile
 print("Name: " + name + "\n From: " + hCity + "\n Age (years): " + str(age) + "\n" + "Favorite Things: " + favFood + ", " + favHobby + "\n Full Age " + "\n Months: " + str(monthsAlive) + "\n Days (inc. leap): " + str(daysAlive) + "\n Hours: " + str(hoursAlive) + "\n Min: " + str(minAlive) + "\n Sec: " + str(secAlive))
 
+#closing statements
+print("")
+print("Thankyou for using ACA, ")
+print("If you enjoyed give a like")
